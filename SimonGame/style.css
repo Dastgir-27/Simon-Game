@@ -1,0 +1,41 @@
+.main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.maindiv{
+    height:440px;
+    width:440px;
+    /* border:1px solid black; */
+    display:flex;
+    /* flex-wrap:wrap; */
+}
+.inner{
+    height:180px;
+    width:180px;
+    border:10px solid rgb(27, 27, 27);
+    border-radius:2rem;
+    margin:0.6rem;
+}
+
+.div1{
+    background-color:cadetblue;
+}
+.div2{
+    background-color:burlywood;
+}
+.div3{
+    background-color:rgb(195, 226, 83);
+}
+.div4{
+    background-color:rgb(209, 108, 184);
+}
+
+
+.gameflash{
+    background-color:white;
+}
+.userflash{
+    background-color:green;
+}
